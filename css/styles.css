@@ -34,7 +34,6 @@ tr:hover {
   background: #555;
 }
 
-/* ====== BOTONES ====== */
 button {
   font-size: 1rem;
   color: #fafafa;
@@ -155,4 +154,5 @@ button.rojo {
 #btn-agregar {
   display: block;
   margin: 20px auto;
+
 }
