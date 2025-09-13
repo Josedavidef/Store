@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fafafa;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #444;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #555;
+  text-align: center;
+}
+
+th {
+  background: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:hover {
+  background: #555;
+}
+
+/* ====== BOTONES ====== */
+button {
+  font-size: 1rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid #fafafa;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+button.verde {
+  background: #006400;
+  border-color: #00ff00;
+}
+
+button.rojo {
+  background: #8b0000;
+  border-color: #ff4444;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-contenido {
+  background: #222;
+  padding: 25px;
+  border-radius: 12px;
+  width: 380px;
+  max-width: 90%;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-contenido h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-grupo {
+  margin-bottom: 15px;
+}
+
+.form-grupo label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+.form-grupo input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  background: #333;
+  color: #fafafa;
+}
+
+.modal-botones {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.resumen {
+  max-width: 300px;
+  margin: 25px auto;
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: left;
+}
+
+.resumen h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fafafa;
+}
+
+.resumen div {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+#total {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #00ff88;
+  text-shadow: 0 0 8px #00ff88;
+}
+
+#btn-agregar {
+  display: block;
+  margin: 20px auto;
+}
